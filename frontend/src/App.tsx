@@ -1,8 +1,12 @@
-function App() {
-  return(
-    <h1>Olá mundo</h1>
+import NotificationButton from "./componentes/NotificationButton"
+function app() {
+  return (
+      <>
+          <p>Meu Ccomponente</p>
+          <NotificationButton />
+          <NotificationButton />
+      </>
   )
-  
 }
+export default app
 
-export default App
