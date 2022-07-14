@@ -1,11 +1,19 @@
-import NotificationButton from "./componentes/NotificationButton"
+import Header from "./componentes/Header"
+import SelesCard from "./componentes/SalesCard"
 function app() {
   return (
-      <>
-          <p>Meu Ccomponente</p>
-          <NotificationButton />
-          <NotificationButton />
-      </>
+    <>
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+            <SelesCard />
+
+          </div>
+        </section>
+      </main>
+
+    </>
   )
 }
 export default app
