@@ -1,5 +1,5 @@
-import Header from "./componentes/Header"
-import SelesCard from "./componentes/SalesCard"
+import Header from "./componentes/Header";
+import SelesCard from "./componentes/SalesCard";
 function app() {
   return (
     <>
@@ -16,5 +16,5 @@ function app() {
     </>
   )
 }
-export default app
+export default app;
 
