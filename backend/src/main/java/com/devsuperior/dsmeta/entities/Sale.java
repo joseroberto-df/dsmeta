@@ -31,10 +31,10 @@ public class Sale {
 		this.id = id;
 	}
 	public String getSallerName() {
-		return sallerName;
+		return sellerName;
 	}
 	public void setSallerName(String sallerName) {
-		this.sallerName = sallerName;
+		this.sellerName = sallerName;
 	}
 	public Integer getVisited() {
 		return visited;
